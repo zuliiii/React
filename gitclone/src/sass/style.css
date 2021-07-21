@@ -1,0 +1,19 @@
+.card {
+  height: 350px;
+}
+
+.card .card-img-top {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card .btn-primary {
+  position: relative;
+  float: left;
+}
+
+.container .fa-github {
+  margin-right: 5% !important;
+}
+/*# sourceMappingURL=style.css.map */
