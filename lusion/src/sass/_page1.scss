@@ -1,0 +1,88 @@
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f7f2 !important;
+   
+    .row{
+        
+            h1{
+                font-size: 100px;
+                font-family: system-ui;
+                font-weight: bolder;
+                position: relative;
+                z-index: 2;
+                top: 30%;
+                left: 35%;
+                color: rgb(36, 36, 36);
+            }
+            h5{
+                color: rgb(59, 168, 59);
+                font-size: 80px;
+                font-family: Jost;
+                position: relative;
+                z-index: 3;
+                text-shadow: 2px 2px #ffffff;
+                top: 15%;
+                left: 75%;
+            }
+            p{
+                font-size: 22px;
+                color: rgb(102, 102, 102);
+                position: relative;
+                top: 10%;
+                left: 35%;
+            }
+            button{
+                width: 180px;
+                height: 50px;
+                position: relative;
+                top: 14%;
+                left: 35%;
+            }
+            img{
+                width: 520px;
+                height: 520px;
+                position: relative;
+                top: 13%;
+                left: 10%;
+                z-index: 4;
+            }
+            .circle{
+                width: 520px;
+                height: 520px;
+                background-color: rgba(125, 206, 125, 0.425);
+                position: absolute;
+                z-index: 2;
+                border-radius: 50%;
+                top: 12%;
+                left: 7%;
+            }
+            .dash_circle{
+                width: 550px;
+                height: 550px;
+                position: absolute;
+                z-index: 2;
+                border-radius: 50%;
+                border: 2px rgb(66, 149, 66) dashed;
+                top: 10%;
+                left: 17%;
+            }
+            .ot1{
+                width: 150px;
+                height: 190px;
+                position: absolute;
+                z-index: 2;
+                top: 80%;
+                left: -1%;
+            }
+            .ot2{
+                width: 120px;
+                height: 170px;
+                position: absolute;
+                z-index: 5;
+                top: 33%;
+                left: 71%;
+            }
+        }
+     
+    }
