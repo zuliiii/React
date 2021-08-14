@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+.container{
+    .col-md-12{
+        margin: 10% 0 0 0;
+        width: 100%;
+        height: 500px;
+        background-image: url('../img/background.jpg') !important;
+        background-repeat: no-repeat;
+        // background-size:cover;
+        background-position:50% 50%;
+        background-size: 100% 350%;
+        border-radius: 40px;
+        .lifestyle, .creative{
+            width: 60px;
+            height: 25px;
+            border: solid 1px rgb(255, 255, 255);
+            font-size: 12px;
+            border-radius: 20px;
+            position: absolute;
+            &:hover{
+                background-color: #fff;
+                color: black;
+            }
+        }
+        .lifestyle{
+            padding: 2px 0 0 10px;
+            margin: 7% 0 0 9%;
+        }
+        .creative{
+            margin: 7% 0 0 13%;
+            padding: 2px 0 0 20px;
+        }
+        h1{
+            margin: 11% 0 0 12%;
+            font-family: 'EB Garamond', serif;
+            font-size: 85px;
+            width: 900px;
+        }
+        .author{
+            width: 300px;
+            margin: 2% 0 0 12%;
+            img{
+                width: 60px;
+                border-radius: 50%;
+            }
+            p{
+                font-size: 13px;
+                float: right;
+                margin: 10px 60px 0 0;
+            }
+        }
+      
+    }
+    h2{
+        margin: 3% auto;
+        font-family: 'EB Garamond', serif;
+        font-size: 70px;
+    }
+    h3{
+         width: 700px;
+         margin: 3% auto;
+         font-family: 'EB Garamond', serif;
+         font-size: 38px;
+    }
+    .span{
+        font-size: 100px;
+        position: relative;
+        left: 50%;
+    }
+}
